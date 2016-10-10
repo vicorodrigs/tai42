@@ -1,0 +1,85 @@
+/* All */
+	* {padding:0px;margin:0px;border:0px;text-decoration:none;}
+	body{/* background-color:#ddd; */font-family: helvetica;}
+
+/* Regras para os icones do google */
+	/* Rules for sizing the icon. */
+		.material-icons.md-14 {font-size: 14px;}
+		.material-icons.md-18 {font-size: 18px;}
+		.material-icons.md-24 {font-size: 24px;}
+		.material-icons.md-30 {font-size: 30px;}
+		.material-icons.md-36 {font-size: 36px;}
+		.material-icons.md-48 {font-size: 48px;}
+	/* Rules for using icons as black on a light background. */
+		.material-icons.md-dark {color: rgba(0, 0, 0, 0.54);}
+		.material-icons.md-dark.md-inactive {color: rgba(0, 0, 0, 0.26);}
+	/* Rules for using icons as white on a dark background. */
+		.material-icons.md-light {color: rgba(255, 255, 255, 1);}
+		.material-icons.md-light.md-inactive {color: rgba(255, 255, 255, 0.3);}
+
+/* Navigation */
+	.mainNav{background-color:#444;position:fixed;width:100%;/*opacity: 0.7;filter: alpha(opacity=70);*/text-align:right;}
+	.mainNav i {margin:5px;}
+	.mainNav ul {/* display:none; */list-style:none;}
+	.mainNav ul:hover {/* background-color:#666;*/}
+	.mainNav ul li {
+		width:150px;display:inline;border-left: 1px solid #777;border-right: 1px solid #777;
+		font-weight: bold;color:#fff;vertical-align: middle;display:inline;
+	}
+	.mainNav ul li i {margin:0px;}
+	#menuIcon{cursor:pointer;}
+	.mainNav ul li a {display:inline-block;color:#fff;padding:7px;}
+	.mainNav ul li a:hover {background-color:#666;color:#fff;}
+
+/* Login form style login.php */
+	#loginform {margin: auto;margin-top:100px;text-align:center;background-color:#fff;width:220px;border:1px solid #777;padding:10px;}
+	#loginform img {width:120px;}
+	#loginform form {margin:auto;width:220px;text-align:center;}
+	#loginform form input {border:1px solid #888;padding:2px;margin:4px;}
+
+/* Dashbard index.php */
+	.maincontent{width:90%;margin:auto;margin-top:25px;}
+	.charts{box-shadow:2px 2px 5px #999;}
+	#pieChart{width:200px;height:200px;}
+
+
+/* Pagina Ações actions.php */ 
+		.mainpa{width:90%;margin:auto;margin-top:30px;}
+
+	/* Caixa para inserir ação */
+		#addAction{
+			margin-bottom:2px;
+			cursor:pointer;
+		}
+		#filterAction{
+			margin-bottom:2px;
+			cursor:pointer;
+		}
+		#insertpa{text-align:center;margin:auto;margin-bottom:10px;width:100%;border:1px solid #aaa;padding-top:10px;padding-bottom:10px;display:none;}
+		.inputpa{width:160px;height:25px;border:1px solid #aaa;margin:3px;margin-top:5px;}
+		.buttonpa{height:29px;padding:5px;border:1px solid #aaa;}
+		#filterpa{display:none;}
+
+	/* Resultados */
+		.patable{width:100%;border:1px solid #aaa;table-layout:auto;border-collapse:collapse;margin:auto;margin-bottom:20px;}
+		.patable td{white-space: nowrap;padding:5px;border-right:1px solid #ddd;}
+		.patable td:last-child{border-right:none;}
+		.patable td.absorbing-column{width:50%;}
+		.paresults{font-size:80%;}
+		.paresults:hover{background-color:#eef;}
+		.patitle{text-align:center;font-weight:bold;background-color:RGB(68,84,106);color:#fff;font-size:90%;}
+		.patitle td{padding:5px;border:none;}
+		.pastatus0{color:RGB(191,191,191);} /* acao cancelada */ 
+		.pastatus1{color:RGB(192,0,0);} /* acao atrasada */ 
+		.pastatus2{color:RGB(255,192,0);} /* acao em andamento */ 
+		.pastatus3{color:RGB(0,176,80);} /* acao concluida */ 
+		.paicons{width:60px;text-align:center;}
+		.paicons a {color:#555;text-align:center;}
+		.paicons a:hover {color:#bbb;text-align:center;}
+
+
+
+
+/* Footer */
+
+footer{height:20px;}

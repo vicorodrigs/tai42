@@ -1,0 +1,89 @@
+* {
+	padding:0px;
+	margin:0px;
+	font-style:none;
+}
+
+body{
+	background-color:#ddd;
+	font-family: helvetica;
+}
+
+a{font-style:none;}
+
+/* Rules for sizing the icon. */
+.material-icons.md-14 { font-size: 14px; }
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.mainNav{
+	background-color:#444;
+	position:fixed;
+	height:100%;
+	opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.mainNav i {
+	margin:5px;
+}
+
+.mainNav ul {
+	margin-top:50px;
+	display:none;
+}
+
+.mainNav ul li {
+	width:150px;
+	display:block;
+	border-top: 1px solid #777;
+	border-bottom: 1px solid #777;
+	margin-top:-1px;
+	font-weight: bold;
+	color:#fff;
+	vertical-align: middle;
+	padding:7px;
+}
+
+#menuIcon{
+	cursor:pointer;
+}
+
+.mainNav ul li a {
+	display:block;
+	color:#fff;
+}
+
+.mainNav ul li a:hover {
+	background-color:#666;
+	color:#fff;
+}
+
+/* Login form style */
+
+#loginform {
+	margin: auto;
+	border: 1px solid #000;
+}
+
+#loginform form {
+	
+}
+
+#loginform form input {
+	margin:1px solid #888;
+	padding:2px;
+	margin:5px;
+}
+
+

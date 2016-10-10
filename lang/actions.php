@@ -1,0 +1,62 @@
+<?
+if ($_SESSION['lang'] = "pt-BR") {
+	$error = "erro ao selecionar."; //erro ao selecionar
+	$title = "Ações"; // ações
+	$insertActions = "Inserir a&ccedil;&otilde;es"; // inserir ações
+	$causa = "Causa"; // causa
+	$acao = "A&ccedil;&atilde;o"; // ação
+	$responsavel = "Respons&aacute;vel"; //responsável
+	$prazo = "Prazo"; // prazo
+	$onde = "Onde"; // onde
+	$adicionar = "value=\"Adicionar!\""; //adicionar
+	$realizado = "Realizado"; // realizado
+	$status = "Status"; // status
+	$editar = "Editar"; // editar
+	$concluir = "Concluir a&ccedil;&atilde;o"; // concluir
+	$cancelar = "Cancelar a&ccedil;&atilde;o"; // cancelar
+	$deletar = "Deletar a&ccedil;&atilde;o"; // deletar
+	$reativar = "Reativar a&ccedil;&atilde;o"; // reativar
+}
+
+elseif ($_SESSION['lang'] = "es-CO") {
+	$error = "error al seleccionar"; //erro ao selecionar
+	$title = "Acciones"; // ações
+	$insertActions = "Agregar acciones"; // inserir ações
+	$causa = "Causa"; // causa
+	$acao = "Acci&oacute;n"; // ação
+	$responsavel = "Responsable"; //responsável
+	$prazo = "Plazo"; // prazo
+	$onde = "Donde"; // onde
+	$adicionar = "value=\"Agregar!\""; //adicionar
+	$realizado = "Realizado"; // realizado
+	$status = "Status"; // status
+	$editar = "Editar"; // editar
+	$concluir = "Concluir acci&oacute;n"; // concluir
+	$cancelar = "Cancelar acci&oacute;n"; // cancelar
+	$deletar = "Deletar acci&oacute;n"; // deletar
+	$reativar = "Reativar acci&oacute;n"; // reativar
+}
+
+elseif ($_SESSION['lang'] = "en-US") {
+	
+} else {}
+
+/*
+	$error = ""; //erro ao selecionar
+	$title = ""; // ações
+	$insertActions = ""; // inserir ações
+	$causa = ""; // causa
+	$acao = ""; // ação
+	$responsavel = ""; //responsável
+	$prazo = ""; // prazo
+	$onde = ""; // onde
+	$adicionar = "value=\"    \""; //adicionar
+	$realizado = ""; // realizado
+	$status = ""; // status
+	$editar = ""; // editar
+	$concluir = ""; // concluir
+	$cancelar = ""; // cancelar
+	$deletar = ""; // deletar
+	$reativar = ""; // reativar
+*/
+?>
